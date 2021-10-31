@@ -390,11 +390,11 @@ ul {
     height: 218px;
     bottom: 50%;
     right: -59%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
 } 
 
  /* Media Quary for desien section */ 
@@ -405,13 +405,7 @@ ul {
   }
 
   .desien .text-content{
-    width: 500px;
-    position: relative;
-    height: 218px;
-    justify-content: center;
-    top: 50%;
-    display: flex;
-    left: 0;
+     display: none;
   }
 }
 
